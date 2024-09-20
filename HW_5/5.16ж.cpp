@@ -27,14 +27,14 @@ double sum_epsilon(double x, double epsilon) {
     return sum;
 }
 
-int main() {
-    double x, epsilon;
-
-    cout << "Enter x( |x| < 1): ";
-    cin >> x;
-    cout << "Enter epsilon: ";
-    cin >> epsilon;
-
-    double result = sum_epsilon(x, epsilon);
-    cout << "Result: " << result << endl;
-}
+// int main() {
+//     double x, epsilon;
+//
+//     cout << "Enter x(|x| < 1): ";
+//     cin >> x;
+//     cout << "Enter epsilon: ";
+//     cin >> epsilon;
+//
+//     double result = sum_epsilon(x, epsilon);
+//     cout << "Result: " << result << endl;
+// }

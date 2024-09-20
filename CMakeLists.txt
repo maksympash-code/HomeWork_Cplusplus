@@ -11,4 +11,6 @@ add_executable(HomeWork main.cpp
         HW_5/5.12б.cpp
         HW_5/5.12б.h
         HW_5/5.16ж.cpp
-        HW_5/5.16ж.h)
+        HW_5/5.16ж.h
+        HW_6/practica_6.cpp
+        HW_6/practica_6.h)
