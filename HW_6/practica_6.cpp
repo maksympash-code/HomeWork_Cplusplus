@@ -81,64 +81,64 @@ void exercice_6_6_b(int x) {
     int y = x & (-x);
     cout << "The smallest set bit of the number " << x << " = " << y << endl;
 }
-int main() {
-
-    // unsigned int n;
-    //
-    // cout << "Enter a number(n < 64): ";
-    // cin >> n;
-    //
-    // exercice_6_1(n);
-
-
-
-    // int n,k;
-    // cout << "Enter n: " << endl;
-    // cin >> n;
-    // cout << "Enter k: " << endl;
-    // cin >> k;
-    //
-    // exercice_6_2(n,k);
-
-
-
-    // unsigned long m;
-    // int j;
-    //
-    // cout << "Enter a 64-bit number m: ";
-    // cin >> m;
-    // cout << "Enter the number of bit j (from 0 to 63): ";
-    // cin >> j;
-    //
-    // exercice_6_3(m, j);
-
-
-
-    // uint32_t number;
-    //
-    // cout << "Enter a 32-bit number: ";
-    // cin >> number;
-    // exercice_6_4(number);
-
-
-
-    // int number;
-    //
-    // cout << "Enter a number: ";
-    // cin >> number;
-    //
-    // exercice_6_5(number);
-
-
-
-    // int x;
-    //
-    // cout << "Enter a number: " << endl;
-    // cin >> x;
-    //
-    // exercice_6_6_a(x);
-    // exercice_6_6_b(x);
-
-
-    return 0;
-}
+// int main() {
+//
+//     // unsigned int n;
+//     //
+//     // cout << "Enter a number(n < 64): ";
+//     // cin >> n;
+//     //
+//     // exercice_6_1(n);
+//
+//
+//
+//     // int n,k;
+//     // cout << "Enter n: " << endl;
+//     // cin >> n;
+//     // cout << "Enter k: " << endl;
+//     // cin >> k;
+//     //
+//     // exercice_6_2(n,k);
+//
+//
+//
+//     // unsigned long m;
+//     // int j;
+//     //
+//     // cout << "Enter a 64-bit number m: ";
+//     // cin >> m;
+//     // cout << "Enter the number of bit j (from 0 to 63): ";
+//     // cin >> j;
+//     //
+//     // exercice_6_3(m, j);
+//
+//
+//
+//     // uint32_t number;
+//     //
+//     // cout << "Enter a 32-bit number: ";
+//     // cin >> number;
+//     // exercice_6_4(number);
+//
+//
+//
+//     // int number;
+//     //
+//     // cout << "Enter a number: ";
+//     // cin >> number;
+//     //
+//     // exercice_6_5(number);
+//
+//
+//
+//     // int x;
+//     //
+//     // cout << "Enter a number: " << endl;
+//     // cin >> x;
+//     //
+//     // exercice_6_6_a(x);
+//     // exercice_6_6_b(x);
+//
+//
+//     return 0;
+// }
