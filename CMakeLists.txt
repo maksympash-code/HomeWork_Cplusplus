@@ -17,4 +17,5 @@ add_executable(HomeWork main.cpp
         HW_6/6.26.cpp
         HW_6/6.26.h
         HW_6/6.22.cpp
-        HW_6/6.22.h)
+        HW_6/6.22.h
+)
