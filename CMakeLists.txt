@@ -18,4 +18,6 @@ add_executable(HomeWork main.cpp
         HW_6/6.26.h
         HW_6/6.22.cpp
         HW_6/6.22.h
+        HW_7/practica_7.cpp
+        HW_7/practica_7.h
 )
