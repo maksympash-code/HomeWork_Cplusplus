@@ -86,63 +86,63 @@ void scalar(const double vec1[], const double vec2[], int size) {
     }
     cout << product << endl;
 }
-int main() {
-    int n;
-    double vec1[max_size];
-    double vec2[max_size];
-    double result[max_size];
-    cout << "Enter n(n < 20 and n >= 0): ";
-    cin >> n;
-
-    if (n <= 0 || n >= 20) {
-        cout << "Invalid input" << endl;
-        return 1;
-    }
-
-
-    cout << "Enter number of vector_1: ";
-    input_vector(vec1, n);
-
-    cout << "Enter number of vector_2: ";
-    input_vector(vec2, n);
-
-    sum_vectors(vec1,vec2,result, n);
-    cout << "Result sum_vectors: ";
-    output_vector(result, n);
-
-    cout << "Scalar: ";
-    scalar(vec1, vec2, n);
-    // const int max_size = 50;
-    // int arr[max_size];
-    // int count = 0, even, odd;
-    //
-    // cout << "Enter integer numbers: ";
-    // for (int i = 0; i < max_size; i++) {
-    //     int num;
-    //     cin >> num;
-    //
-    //     if (num == 0)
-    //         break;
-    //
-    //     arr[count++] = num;
-    // }
-    //
-    // exercize_5(arr, count, even, odd);
-    //
-    // cout << "Numbers after even numbers: " << even << endl;
-    // cout << "Numbers after odd numbers: " << odd << endl;
-
-    // float number;
-    // cin >> number;
-
-    //exercize_1(arr, n, number);
-    //
-    // input(arr, n + 5);
-    // print(arr, n);
-    // printf("\n%lu", sizeof(arr) / sizeof(arr[0]));
-    // printf("%p\n", arr);
-    // for (int i = 0; i < n; i++) {
-    //     printf("%p %p\n", &arr[i], arr + i);
-    // }
-    return 0;
-}
+// int main() {
+//     int n;
+//     double vec1[max_size];
+//     double vec2[max_size];
+//     double result[max_size];
+//     cout << "Enter n(n < 20 and n >= 0): ";
+//     cin >> n;
+//
+//     if (n <= 0 || n >= 20) {
+//         cout << "Invalid input" << endl;
+//         return 1;
+//     }
+//
+//
+//     cout << "Enter number of vector_1: ";
+//     input_vector(vec1, n);
+//
+//     cout << "Enter number of vector_2: ";
+//     input_vector(vec2, n);
+//
+//     sum_vectors(vec1,vec2,result, n);
+//     cout << "Result sum_vectors: ";
+//     output_vector(result, n);
+//
+//     cout << "Scalar: ";
+//     scalar(vec1, vec2, n);
+//     // const int max_size = 50;
+//     // int arr[max_size];
+//     // int count = 0, even, odd;
+//     //
+//     // cout << "Enter integer numbers: ";
+//     // for (int i = 0; i < max_size; i++) {
+//     //     int num;
+//     //     cin >> num;
+//     //
+//     //     if (num == 0)
+//     //         break;
+//     //
+//     //     arr[count++] = num;
+//     // }
+//     //
+//     // exercize_5(arr, count, even, odd);
+//     //
+//     // cout << "Numbers after even numbers: " << even << endl;
+//     // cout << "Numbers after odd numbers: " << odd << endl;
+//
+//     // float number;
+//     // cin >> number;
+//
+//     //exercize_1(arr, n, number);
+//     //
+//     // input(arr, n + 5);
+//     // print(arr, n);
+//     // printf("\n%lu", sizeof(arr) / sizeof(arr[0]));
+//     // printf("%p\n", arr);
+//     // for (int i = 0; i < n; i++) {
+//     //     printf("%p %p\n", &arr[i], arr + i);
+//     // }
+//     return 0;
+//}
