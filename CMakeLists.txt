@@ -22,4 +22,8 @@ add_executable(HomeWork main.cpp
         HW_7/practica_7.h
         HW_8/practica_8.cpp
         HW_8/practica_8.h
+        HW_7/7.8б.cpp
+        HW_7/7.8б.h
+        HW_7/7.10в.cpp
+        HW_7/7.10в.h
 )

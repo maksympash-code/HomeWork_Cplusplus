@@ -124,44 +124,44 @@ double determinant(double matrix[max_size][max_size], int n) {
     return det;
 }
 
-int main() {
-    int n;
-
-    cout << "Enter n:";
-    cin >> n;
-
-    if (n <= 0 || n > max_size) {
-        cout << "Incorect" << endl;
-        return 1;
-    }
-
-    double matrix[max_size][max_size];
-
-    cout << "Matrix element(" << n << "x" << n << "):" << endl;
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            cin >> matrix[i][j];
-        }
-    }
-
-    // Обчислення детермінанта
-    double det = determinant(matrix, n);
-
-    cout << "Determinant: "<< det << endl;
-
-    // exercise_5(matrix, n);
-    // cout << "Enter m:";
-    // cin >> m;
-
-    // exercise_1(matrix, n, m);
-    // exercise_4(matrix, n, m);
-
-    return 0;
-}
-
-
-    // print(matrix, 3, 3);
-    // input_matrix(matrix, 3,3);
-    // print(matrix, 3, 3);
-    // printf("%p \n", &matrix);
-    // printf("%p \n", &matrix + 1);
+// int main() {
+//     int n;
+//
+//     cout << "Enter n:";
+//     cin >> n;
+//
+//     if (n <= 0 || n > max_size) {
+//         cout << "Incorect" << endl;
+//         return 1;
+//     }
+//
+//     double matrix[max_size][max_size];
+//
+//     cout << "Matrix element(" << n << "x" << n << "):" << endl;
+//     for (int i = 0; i < n; i++) {
+//         for (int j = 0; j < n; j++) {
+//             cin >> matrix[i][j];
+//         }
+//     }
+//
+//     // Обчислення детермінанта
+//     double det = determinant(matrix, n);
+//
+//     cout << "Determinant: "<< det << endl;
+//
+//     // exercise_5(matrix, n);
+//     // cout << "Enter m:";
+//     // cin >> m;
+//
+//     // exercise_1(matrix, n, m);
+//     // exercise_4(matrix, n, m);
+//
+//     return 0;
+// }
+//
+//
+//     // print(matrix, 3, 3);
+//     // input_matrix(matrix, 3,3);
+//     // print(matrix, 3, 3);
+//     // printf("%p \n", &matrix);
+//     // printf("%p \n", &matrix + 1);

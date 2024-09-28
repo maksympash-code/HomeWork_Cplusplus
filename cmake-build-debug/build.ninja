@@ -109,6 +109,18 @@ build CMakeFiles/HomeWork.dir/HW_8/practica_8.cpp.obj: CXX_COMPILER__HomeWork_un
   OBJECT_DIR = CMakeFiles\HomeWork.dir
   OBJECT_FILE_DIR = CMakeFiles\HomeWork.dir\HW_8
 
+build CMakeFiles/HomeWork.dir/HW_7/7.8б.cpp.obj: CXX_COMPILER__HomeWork_unscanned_Debug B$:/C++/HomeWork/HW_7/7.8б.cpp || cmake_object_order_depends_target_HomeWork
+  DEP_FILE = CMakeFiles\HomeWork.dir\HW_7\7.8б.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\HomeWork.dir
+  OBJECT_FILE_DIR = CMakeFiles\HomeWork.dir\HW_7
+
+build CMakeFiles/HomeWork.dir/HW_7/7.10в.cpp.obj: CXX_COMPILER__HomeWork_unscanned_Debug B$:/C++/HomeWork/HW_7/7.10в.cpp || cmake_object_order_depends_target_HomeWork
+  DEP_FILE = CMakeFiles\HomeWork.dir\HW_7\7.10в.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\HomeWork.dir
+  OBJECT_FILE_DIR = CMakeFiles\HomeWork.dir\HW_7
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target HomeWork
@@ -117,7 +129,7 @@ build CMakeFiles/HomeWork.dir/HW_8/practica_8.cpp.obj: CXX_COMPILER__HomeWork_un
 #############################################
 # Link the executable HomeWork.exe
 
-build HomeWork.exe: CXX_EXECUTABLE_LINKER__HomeWork_Debug CMakeFiles/HomeWork.dir/main.cpp.obj CMakeFiles/HomeWork.dir/HW_5/5.09в.cpp.obj CMakeFiles/HomeWork.dir/HW_5/practica_5.cpp.obj CMakeFiles/HomeWork.dir/HW_5/5.12б.cpp.obj CMakeFiles/HomeWork.dir/HW_5/5.16ж.cpp.obj CMakeFiles/HomeWork.dir/HW_6/practica_6.cpp.obj CMakeFiles/HomeWork.dir/HW_6/6.26.cpp.obj CMakeFiles/HomeWork.dir/HW_6/6.22.cpp.obj CMakeFiles/HomeWork.dir/HW_7/practica_7.cpp.obj CMakeFiles/HomeWork.dir/HW_8/practica_8.cpp.obj
+build HomeWork.exe: CXX_EXECUTABLE_LINKER__HomeWork_Debug CMakeFiles/HomeWork.dir/main.cpp.obj CMakeFiles/HomeWork.dir/HW_5/5.09в.cpp.obj CMakeFiles/HomeWork.dir/HW_5/practica_5.cpp.obj CMakeFiles/HomeWork.dir/HW_5/5.12б.cpp.obj CMakeFiles/HomeWork.dir/HW_5/5.16ж.cpp.obj CMakeFiles/HomeWork.dir/HW_6/practica_6.cpp.obj CMakeFiles/HomeWork.dir/HW_6/6.26.cpp.obj CMakeFiles/HomeWork.dir/HW_6/6.22.cpp.obj CMakeFiles/HomeWork.dir/HW_7/practica_7.cpp.obj CMakeFiles/HomeWork.dir/HW_8/practica_8.cpp.obj CMakeFiles/HomeWork.dir/HW_7/7.8б.cpp.obj CMakeFiles/HomeWork.dir/HW_7/7.10в.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\HomeWork.dir
