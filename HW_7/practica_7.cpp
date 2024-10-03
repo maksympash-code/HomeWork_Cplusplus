@@ -28,16 +28,16 @@ void endian() {
         cout << "Middle endion" << endl;
 }
 
-void print(int* arr, int n) {
-    for (int i = 0; i < n; i++) {
-        printf("%li ", arr[i]);
-    }
-}
+// void print(int* arr, int n) {
+//     for (int i = 0; i < n; i++) {
+//         printf("%li ", arr[i]);
+//     }
+// }
 
-void input(int* arr, int n) {
-    for (int i = 0; i < n; i++)
-        cin >> arr[i];
-}
+// void input(int* arr, int n) {
+//     for (int i = 0; i < n; i++)
+//         cin >> arr[i];
+// }
 
 void exercize_1(int* arr, int n, float number) {
     int count = 0;

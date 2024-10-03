@@ -1,10 +1,13 @@
 #include <iostream>
-#include "HW_5/5.12б.h"
 using namespace std;
 
 // int main() {
 //     int n;
-//     cin >> n;
+//     n = 20;
 //
-//     cout << "Result: " << ;
+//     int *mas3 = static_cast<int *>(malloc(n * sizeof(int)));
+//
+//     mas3[0] = 1;
+//
+//     free(mas3);
 // }
