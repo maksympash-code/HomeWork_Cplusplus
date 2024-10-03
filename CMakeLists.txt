@@ -30,4 +30,8 @@ add_executable(HomeWork main.cpp
         HW_8/8.23.h
         HW_9/practica_9.cpp
         HW_9/practica_9.h
+        HW_9/9.08.cpp
+        HW_9/9.08.h
+        HW_9/9.09й.cpp
+        HW_9/9.09й.h
 )

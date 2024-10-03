@@ -65,7 +65,9 @@
 				19,
 				21,
 				23,
-				25
+				25,
+				27,
+				29
 			]
 		}
 	],
@@ -115,7 +117,9 @@
 				19,
 				21,
 				23,
-				25
+				25,
+				27,
+				29
 			]
 		},
 		{
@@ -134,7 +138,9 @@
 				20,
 				22,
 				24,
-				26
+				26,
+				28,
+				30
 			]
 		}
 	],
@@ -287,6 +293,28 @@
 		{
 			"backtrace" : 1,
 			"path" : "HW_9/practica_9.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "HW_9/9.08.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "HW_9/9.08.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "HW_9/9.09\u0439.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "HW_9/9.09\u0439.h",
 			"sourceGroupIndex" : 1
 		}
 	],
