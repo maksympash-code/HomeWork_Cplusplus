@@ -45,33 +45,33 @@ double** removeRow(double** a, int& N, int M, int k) {
     return newA;
 }
 
-int main() {
-    int N, M, k;
-    cout << "Enter N:";
-    cin >> N;
-
-    cout << "Enter M:";
-    cin >> M;
-
-    double** a = new double*[N];
-
-    for (int i = 0; i < N; i++) {
-        a[i] = new double[M];
-    }
-
-    input(a, N, M);
-    print(a, N, M);
-
-    cout << "Which row to delete? (Enter a number):";
-    cin >> k;
-
-    a = removeRow(a, N, M, k);
-    print(a, N, M);
-
-    for (int i = 0; i < N; i++) {
-        delete[] a[i];
-    }
-    delete []a;
-
-    return 0;
-}
+// int main() {
+//     int N, M, k;
+//     cout << "Enter N:";
+//     cin >> N;
+//
+//     cout << "Enter M:";
+//     cin >> M;
+//
+//     double** a = new double*[N];
+//
+//     for (int i = 0; i < N; i++) {
+//         a[i] = new double[M];
+//     }
+//
+//     input(a, N, M);
+//     print(a, N, M);
+//
+//     cout << "Which row to delete? (Enter a number):";
+//     cin >> k;
+//
+//     a = removeRow(a, N, M, k);
+//     print(a, N, M);
+//
+//     for (int i = 0; i < N; i++) {
+//         delete[] a[i];
+//     }
+//     delete []a;
+//
+//     return 0;
+// }
