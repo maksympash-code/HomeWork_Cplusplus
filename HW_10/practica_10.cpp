@@ -1,5 +1,6 @@
 #include "practica_10.h"
 #include <iostream>
+#include <string.h>
 
 using namespace std;
 
@@ -57,7 +58,38 @@ using namespace std;
 //     return C;
 // }
 
-int main() {
+// struct struct_1 {
+//     int n;
+//     char s[25];
+// };
+
+// int main() {
+//     struct struct_1 a;
+//     a.n = 10;
+//     strcpy(a.s, "hello world");
+//     cout << a.s << endl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // int n = 2, m = 3, l = 2;
     //
     // int **matrix = createMatrix(n, m);
@@ -74,5 +106,5 @@ int main() {
     // delete_matrix(matrix, n, m);
     // delete_matrix(newMatrix, n, m);
     // delete_matrix(C, n, m);
-    return 0;
-}
+//     return 0;
+// }
