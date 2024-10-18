@@ -51,19 +51,19 @@ void findEmployeesWithSameNames(const vector<Employee>& employees) {
 }
 
 
-int main() {
-    int N;
-    cout << "Enter number of employees:";
-    cin >> N;
-
-    vector<Employee> employees(N);
-
-    for (int i = 0; i < N; i++) {
-        cout << "Enter information for emploee "<< i + 1 << ":" << endl;
-        input(employees[i]);
-    }
-
-    findEmployeesWithSameNames(employees);
-
-    return 0;
-}
+// int main() {
+//     int N;
+//     cout << "Enter number of employees:";
+//     cin >> N;
+//
+//     vector<Employee> employees(N);
+//
+//     for (int i = 0; i < N; i++) {
+//         cout << "Enter information for emploee "<< i + 1 << ":" << endl;
+//         input.txt(employees[i]);
+//     }
+//
+//     findEmployeesWithSameNames(employees);
+//
+//     return 0;
+// }

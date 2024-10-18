@@ -29,7 +29,7 @@ void print_sphere(const Sphere &sphere){
 // int main() {
 //     Sphere my_sphere;
 //
-//     input(my_sphere);
+//     input.txt(my_sphere);
 //
 //     print_sphere(my_sphere);
 //     return 0;

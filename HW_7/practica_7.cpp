@@ -34,7 +34,7 @@ void endian() {
 //     }
 // }
 
-// void input(int* arr, int n) {
+// void input.txt(int* arr, int n) {
 //     for (int i = 0; i < n; i++)
 //         cin >> arr[i];
 // }
@@ -95,7 +95,7 @@ void scalar(const double vec1[], const double vec2[], int size) {
 //     cin >> n;
 //
 //     if (n <= 0 || n >= 20) {
-//         cout << "Invalid input" << endl;
+//         cout << "Invalid input.txt" << endl;
 //         return 1;
 //     }
 //
@@ -137,7 +137,7 @@ void scalar(const double vec1[], const double vec2[], int size) {
 //
 //     //exercize_1(arr, n, number);
 //     //
-//     // input(arr, n + 5);
+//     // input.txt(arr, n + 5);
 //     // print(arr, n);
 //     // printf("\n%lu", sizeof(arr) / sizeof(arr[0]));
 //     // printf("%p\n", arr);

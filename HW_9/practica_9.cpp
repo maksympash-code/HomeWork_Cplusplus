@@ -32,7 +32,7 @@ void dynamic_array_c() {
     }
 
     print(a, n);
-    //input(a, n);
+    //input.txt(a, n);
     //print(a, n);
 
 
@@ -94,7 +94,7 @@ int input(int** a) {
 
 // int main() {
 //     int* a ;
-//     int n = input(&a);
+//     int n = input.txt(&a);
 //
 //     print(a, n);
 //

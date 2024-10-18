@@ -59,7 +59,7 @@ double** removeRow(double** a, int& N, int M, int k) {
 //         a[i] = new double[M];
 //     }
 //
-//     input(a, N, M);
+//     input.txt(a, N, M);
 //     print(a, N, M);
 //
 //     cout << "Which row to delete? (Enter a number):";

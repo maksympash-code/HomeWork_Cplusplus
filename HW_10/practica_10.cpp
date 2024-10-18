@@ -22,7 +22,7 @@ using namespace std;
 //     free(matrix);
 // }
 //
-// void input(int **matrix, int n, int m) {
+// void input.txt(int **matrix, int n, int m) {
 //     for (int i = 0; i < n; i++) {
 //         for (int j = 0; j < m; j++) {
 //             cin >> matrix[i][j];
@@ -94,10 +94,10 @@ using namespace std;
     //
     // int **matrix = createMatrix(n, m);
     // int** newMatrix = createMatrix(m, l);
-    // input(matrix, n, m);
+    // input.txt(matrix, n, m);
     // print(matrix, n, m);
     //
-    // input(newMatrix, m, l);
+    // input.txt(newMatrix, m, l);
     // print(newMatrix, m, l);
     //
     // int** C = multi_matrix(matrix, newMatrix, n, m, l);

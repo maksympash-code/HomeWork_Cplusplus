@@ -1,0 +1,4 @@
+Ball 150.5 2 5
+Doll 200.0 3 7
+Constructor 300.0 4 10
+Car 120.0 1 4

@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// void input(int* a, int n) {
+// void input.txt(int* a, int n) {
 //     cout << "Enter vector: " << endl;
 //     for (int i = 0; i < n; i++) {
 //         cin >> a[i];
@@ -47,7 +47,7 @@ void dispersia(int *a, int n, int result) {
 //
 //     int* a = new int[n];
 //
-//     input(a, n);
+//     input.txt(a, n);
 //     print_vector(a,n);
 //
 //     float result = sum(a, n);
