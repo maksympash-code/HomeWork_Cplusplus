@@ -68,19 +68,19 @@ void findToysForAgeAndBudget(const vector<Toy>& toys, int age, double budget) {
     }
 }
 
-int main() {
-    string filename = "B:/C++/HomeWork/HW_11/toys.txt";
-
-    vector<Toy> toys = readToys(filename);
-
-    int age;
-    double budget;
-    cout << "Enter the age of the child: ";
-    cin >> age;
-    cout << "Enter the maximum budget (UAH): ";
-    cin >> budget;
-
-    findToysForAgeAndBudget(toys, age, budget);
-
-    return 0;
-}
+// int main() {
+//     string filename = "B:/C++/HomeWork/HW_11/toys.txt";
+//
+//     vector<Toy> toys = readToys(filename);
+//
+//     int age;
+//     double budget;
+//     cout << "Enter the age of the child: ";
+//     cin >> age;
+//     cout << "Enter the maximum budget (UAH): ";
+//     cin >> budget;
+//
+//     findToysForAgeAndBudget(toys, age, budget);
+//
+//     return 0;
+// }
