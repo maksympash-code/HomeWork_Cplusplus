@@ -38,13 +38,13 @@ void processFile(const string& inputFileName, const string& outputFileName) {
     outputFile.close();
 }
 
-int main() {
-    string inputFileName = "B:/C++/HomeWork/HW_12/F.txt";
-    string outputFileName = "B:/C++/HomeWork/HW_12/G.txt";
-
-    processFile(inputFileName, outputFileName);
-
-    cout << "Processing complete. Check the output file: " << outputFileName << endl;
-
-    return 0;
-}
+// int main() {
+//     string inputFileName = "B:/C++/HomeWork/HW_12/F.txt";
+//     string outputFileName = "B:/C++/HomeWork/HW_12/G.txt";
+//
+//     processFile(inputFileName, outputFileName);
+//
+//     cout << "Processing complete. Check the output file: " << outputFileName << endl;
+//
+//     return 0;
+// }

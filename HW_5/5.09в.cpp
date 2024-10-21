@@ -1,6 +1,5 @@
 #include "5.09в.h"
 #include <iostream>
-#include <ostream>
 
 using namespace std;
 
