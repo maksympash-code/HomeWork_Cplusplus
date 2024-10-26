@@ -55,4 +55,8 @@ add_executable(HomeWork main.cpp
         HW_13/13.14.cpp
         HW_13/13.14.h
         HW_13/13.17.cpp
+        HW_14/14.12.cpp
+        HW_14/14.12.h
+        HW_14/14.27.cpp
+        HW_14/14.27.h
 )

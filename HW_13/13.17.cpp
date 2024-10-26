@@ -25,13 +25,13 @@ void processSentence(string& s) {
     cout << result << endl;
 }
 
-int main() {
-    string s;
-
-    cout << "Enter sentence:";
-    getline(cin, s);
-
-    processSentence(s);
-
-    return 0;
-}
+// int main() {
+//     string s;
+//
+//     cout << "Enter sentence:";
+//     getline(cin, s);
+//
+//     processSentence(s);
+//
+//     return 0;
+// }
