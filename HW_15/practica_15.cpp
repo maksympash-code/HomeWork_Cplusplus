@@ -103,23 +103,23 @@ public:
 };
 
 
-int main() {
-    srand(time(nullptr));
-
-    int N = 4;
-    Rational array[N] = {
-        Rational(1,2),
-        Rational(5),
-        Rational(),
-        Rational::random()
-    };
-    // cin >> array[0];
-    // array[0].input();
-    // array[0] = array[0] + Rational(1,3);
-    array[0] = array[0] - Rational(1,3);
-    for (int i = 0; i < N; i ++) {
-        cout << array[i] << endl;
-    }
-
-    return 0;
-}
+// int main() {
+//     srand(time(nullptr));
+//
+//     int N = 4;
+//     Rational array[N] = {
+//         Rational(1,2),
+//         Rational(5),
+//         Rational(),
+//         Rational::random()
+//     };
+//     // cin >> array[0];
+//     // array[0].input();
+//     // array[0] = array[0] + Rational(1,3);
+//     array[0] = array[0] - Rational(1,3);
+//     for (int i = 0; i < N; i ++) {
+//         cout << array[i] << endl;
+//     }
+//
+//     return 0;
+// }

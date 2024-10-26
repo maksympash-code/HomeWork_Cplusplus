@@ -52,4 +52,7 @@ add_executable(HomeWork main.cpp
         HW_12/12.16.h
         HW_15/practica_15.cpp
         HW_15/practica_15.h
+        HW_13/13.14.cpp
+        HW_13/13.14.h
+        HW_13/13.17.cpp
 )
