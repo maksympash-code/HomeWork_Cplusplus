@@ -28,11 +28,11 @@ void copyWithIndentation(const string& inputFile, const string& outputFile) {
     cout << "File copied with indentation successfully!" << endl;
 }
 
-int main() {
-    string inputFile = "B:/C++/HomeWork/HW_14/F.txt";
-    string outputFile = "B:/C++/HomeWork/HW_14/G.txt";
-
-    copyWithIndentation(inputFile, outputFile);
-
-    return 0;
-}
+// int main() {
+//     string inputFile = "B:/C++/HomeWork/HW_14/F.txt";
+//     string outputFile = "B:/C++/HomeWork/HW_14/G.txt";
+//
+//     copyWithIndentation(inputFile, outputFile);
+//
+//     return 0;
+// }
