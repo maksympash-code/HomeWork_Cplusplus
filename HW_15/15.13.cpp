@@ -73,32 +73,32 @@ public:
     }
 };
 
-int main() {
-    Vector3 v1(1, 2, 3);
-    Vector3 v2(4, 5, 6);
-
-    Vector3 vSum = v1 + v2;
-    cout << "Sum: ";
-    vSum.print();
-
-    double dotProduct = v1 * v2;  // Скалярний добуток
-    cout << "Product: " << dotProduct << endl;
-
-    cout << "abs() v1:\n " << v1.abs() << endl;
-
-    Matrix3 matrix;
-    matrix.m[0][0] = 1; matrix.m[0][1] = 2; matrix.m[0][2] = 3;
-    matrix.m[1][0] = 4; matrix.m[1][1] = 5; matrix.m[1][2] = 6;
-    matrix.m[2][0] = 7; matrix.m[2][1] = 8; matrix.m[2][2] = 9;
-
-    cout << "Matrix:\n";
-    matrix.print();
-
-    cout << "det(): " << matrix.det() << endl;
-    cout << "abs(): " << matrix.abs() << endl;
-
-    Vector3 result = matrix * v1;
-    cout << "Product Matrix:" << endl;
-    result.print();
-    return 0;
-}
+// int main() {
+//     Vector3 v1(1, 2, 3);
+//     Vector3 v2(4, 5, 6);
+//
+//     Vector3 vSum = v1 + v2;
+//     cout << "Sum: ";
+//     vSum.print();
+//
+//     double dotProduct = v1 * v2;  // Скалярний добуток
+//     cout << "Product: " << dotProduct << endl;
+//
+//     cout << "abs() v1:\n " << v1.abs() << endl;
+//
+//     Matrix3 matrix;
+//     matrix.m[0][0] = 1; matrix.m[0][1] = 2; matrix.m[0][2] = 3;
+//     matrix.m[1][0] = 4; matrix.m[1][1] = 5; matrix.m[1][2] = 6;
+//     matrix.m[2][0] = 7; matrix.m[2][1] = 8; matrix.m[2][2] = 9;
+//
+//     cout << "Matrix:\n";
+//     matrix.print();
+//
+//     cout << "det(): " << matrix.det() << endl;
+//     cout << "abs(): " << matrix.abs() << endl;
+//
+//     Vector3 result = matrix * v1;
+//     cout << "Product Matrix:" << endl;
+//     result.print();
+//     return 0;
+// }
