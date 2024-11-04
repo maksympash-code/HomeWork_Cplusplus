@@ -83,7 +83,11 @@
 				54,
 				56,
 				58,
-				59
+				59,
+				60,
+				61,
+				62,
+				63
 			]
 		}
 	],
@@ -151,7 +155,11 @@
 				54,
 				56,
 				58,
-				59
+				59,
+				60,
+				61,
+				62,
+				63
 			]
 		},
 		{
@@ -521,6 +529,30 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "HW_16/16.11.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "HW_18/practica_18.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "HW_18/18.1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "HW_18/18.2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "HW_16/16.06.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

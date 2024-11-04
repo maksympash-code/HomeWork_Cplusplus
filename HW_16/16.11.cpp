@@ -45,22 +45,22 @@ public:
     }
 };
 
-int main() {
-    Personal personalCar(20,3);
-    double distance = 50;
-
-    if (personalCar.go(distance)) {
-        cout << "Personal car passed " << distance << "km. The remaining fuel: " << personalCar.getFuel() << endl;
-    }else {
-        cout << "Insufficient fuel for a personal car for a distance " << distance  << "km." << endl;
-    }
-
-    Truck truck(50, 5);
-    if (truck.go(distance)) {
-        cout << "Truck passed " << distance << "km. The remaining fuel: " << truck.getFuel() << endl;
-    }else {
-        cout << "Not enough fuel for a truck to cover the distance " << distance << "km." << endl;
-    }
-
-    return 0;
-}
+// int main() {
+//     Personal personalCar(20,3);
+//     double distance = 50;
+//
+//     if (personalCar.go(distance)) {
+//         cout << "Personal car passed " << distance << "km. The remaining fuel: " << personalCar.getFuel() << endl;
+//     }else {
+//         cout << "Insufficient fuel for a personal car for a distance " << distance  << "km." << endl;
+//     }
+//
+//     Truck truck(50, 5);
+//     if (truck.go(distance)) {
+//         cout << "Truck passed " << distance << "km. The remaining fuel: " << truck.getFuel() << endl;
+//     }else {
+//         cout << "Not enough fuel for a truck to cover the distance " << distance << "km." << endl;
+//     }
+//
+//     return 0;
+// }

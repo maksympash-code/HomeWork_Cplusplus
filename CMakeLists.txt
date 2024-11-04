@@ -63,4 +63,8 @@ add_executable(HomeWork main.cpp
         HW_15/15.13.h
         HW_17/17.2.cpp
         HW_16/16.11.cpp
+        HW_18/practica_18.cpp
+        HW_18/18.1.cpp
+        HW_18/18.2.cpp
+        HW_16/16.06.cpp
 )
