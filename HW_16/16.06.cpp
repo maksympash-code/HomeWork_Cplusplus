@@ -105,27 +105,27 @@ public:
     }
 };
 
-int main() {
-    // Перевірка класу Rectangle
-    Rectangle rect(0, 0, 10, 5);
-    cout << "Rectangle Area: " << rect.area() << endl;
-    cout << "Rectangle Perimeter: " << rect.perimetr() << endl;
-    auto [rectCx, rectCy] = rect.center();
-    cout << "Rectangle Center: (" << rectCx << ", " << rectCy << ")" << endl;
-
-    // Перевірка класу Triangle
-    Triangle tri(0, 0, 10, M_PI / 4, M_PI / 4);
-    cout << "\nTriangle Area: " << tri.area() << endl;
-    cout << "Triangle Perimeter: " << tri.perimetr() << endl;
-    auto [triCx, triCy] = tri.center();
-    cout << "Triangle Center: (" << triCx << ", " << triCy << ")" << endl;
-
-    // Перевірка класу Ellipse
-    Ellipse ellipse(0, 0, 4, 0, 5, 3);
-    cout << "\nEllipse Area: " << ellipse.area() << endl;
-    cout << "Ellipse Perimeter (Approx.): " << ellipse.perimetr() << endl;
-    auto [ellipseCx, ellipseCy] = ellipse.center();
-    cout << "Ellipse Center: (" << ellipseCx << ", " << ellipseCy << ")" << endl;
-
-    return 0;
-}
+// int main() {
+//     // Перевірка класу Rectangle
+//     Rectangle rect(0, 0, 10, 5);
+//     cout << "Rectangle Area: " << rect.area() << endl;
+//     cout << "Rectangle Perimeter: " << rect.perimetr() << endl;
+//     auto [rectCx, rectCy] = rect.center();
+//     cout << "Rectangle Center: (" << rectCx << ", " << rectCy << ")" << endl;
+//
+//     // Перевірка класу Triangle
+//     Triangle tri(0, 0, 10, M_PI / 4, M_PI / 4);
+//     cout << "\nTriangle Area: " << tri.area() << endl;
+//     cout << "Triangle Perimeter: " << tri.perimetr() << endl;
+//     auto [triCx, triCy] = tri.center();
+//     cout << "Triangle Center: (" << triCx << ", " << triCy << ")" << endl;
+//
+//     // Перевірка класу Ellipse
+//     Ellipse ellipse(0, 0, 4, 0, 5, 3);
+//     cout << "\nEllipse Area: " << ellipse.area() << endl;
+//     cout << "Ellipse Perimeter (Approx.): " << ellipse.perimetr() << endl;
+//     auto [ellipseCx, ellipseCy] = ellipse.center();
+//     cout << "Ellipse Center: (" << ellipseCx << ", " << ellipseCy << ")" << endl;
+//
+//     return 0;
+// }
