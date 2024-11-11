@@ -107,38 +107,38 @@ public:
 
 };
 
-int main() {
-    try {
-        int n;
-        cout << "Enter the size of the vector: ";
-        cin >> n;
-
-        Vector vec1(n);
-        vec1.inputVector();
-
-        cout << "Vector 1: " << vec1 << endl;
-
-        Vector vec2(n);
-        cout << "Enter elements for Vector 2:\n";
-        vec2.inputVector();
-
-        cout << "Dot Product of vec1 and vec2: " << vec1.product(vec2) << endl;
-
-        if (n == 3) {
-            Vector crossProd = vec1.crossProduct(vec2);
-            cout << "Cross Product of vec1 and vec2: " << crossProd << endl;
-        }
-
-        vec1.saveToFile("B:/C++/HomeWork/HW_17/vector.txt");
-        cout << "Vector saved to file.\n";
-
-        Vector vecFromFile(n);
-        vecFromFile.loadFromFile("B:/C++/HomeWork/HW_17/vector.txt");
-        cout << "Vector loaded from file: " << vecFromFile << endl;
-
-    } catch (const exception& e) {
-        cerr << "Error: " << e.what() << endl;
-    }
-
-    return 0;
-}
+// int main() {
+//     try {
+//         int n;
+//         cout << "Enter the size of the vector: ";
+//         cin >> n;
+//
+//         Vector vec1(n);
+//         vec1.inputVector();
+//
+//         cout << "Vector 1: " << vec1 << endl;
+//
+//         Vector vec2(n);
+//         cout << "Enter elements for Vector 2:\n";
+//         vec2.inputVector();
+//
+//         cout << "Dot Product of vec1 and vec2: " << vec1.product(vec2) << endl;
+//
+//         if (n == 3) {
+//             Vector crossProd = vec1.crossProduct(vec2);
+//             cout << "Cross Product of vec1 and vec2: " << crossProd << endl;
+//         }
+//
+//         vec1.saveToFile("B:/C++/HomeWork/HW_17/vector.txt");
+//         cout << "Vector saved to file.\n";
+//
+//         Vector vecFromFile(n);
+//         vecFromFile.loadFromFile("B:/C++/HomeWork/HW_17/vector.txt");
+//         cout << "Vector loaded from file: " << vecFromFile << endl;
+//
+//     } catch (const exception& e) {
+//         cerr << "Error: " << e.what() << endl;
+//     }
+//
+//     return 0;
+// }
