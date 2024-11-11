@@ -53,17 +53,14 @@ public:
 
 int main() {
     try {
-        BlackBox<int> box; // Створення BlackBox для цілих чисел
+        BlackBox<int> box;
 
-        // Додавання елементів
         for (int i = 0; i < 5; ++i) {
             box.push(i * 10);
         }
 
-        // Виведення випадкового елемента без видалення
         cout << "Random element (xrop): " << box.xpop() << endl;
 
-        // Виведення та видалення випадкового елемента
         cout << "Random element removed (pop): " << box.pop() << endl;
 
     } catch (const exception& e) {
