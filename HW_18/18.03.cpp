@@ -51,21 +51,21 @@ public:
 
 };
 
-int main() {
-    try {
-        BlackBox<int> box;
-
-        for (int i = 0; i < 5; ++i) {
-            box.push(i * 10);
-        }
-
-        cout << "Random element (xrop): " << box.xpop() << endl;
-
-        cout << "Random element removed (pop): " << box.pop() << endl;
-
-    } catch (const exception& e) {
-        cerr << "Error: " << e.what() << endl;
-    }
-
-    return 0;
-}
+// int main() {
+//     try {
+//         BlackBox<int> box;
+//
+//         for (int i = 0; i < 5; ++i) {
+//             box.push(i * 10);
+//         }
+//
+//         cout << "Random element (xrop): " << box.xpop() << endl;
+//
+//         cout << "Random element removed (pop): " << box.pop() << endl;
+//
+//     } catch (const exception& e) {
+//         cerr << "Error: " << e.what() << endl;
+//     }
+//
+//     return 0;
+// }
