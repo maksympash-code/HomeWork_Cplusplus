@@ -8,7 +8,7 @@
 1454	2181	7524074954110520	CMakeFiles/HomeWork.dir/HW_15/practica_15.cpp.obj	378d7f903d1b4bb6
 29	822	7524074939856998	CMakeFiles/HomeWork.dir/HW_5/practica_5.cpp.obj	d87c929a02be11ab
 54	789	7524074940106821	CMakeFiles/HomeWork.dir/HW_6/practica_6.cpp.obj	68ea6bb4ecf4579e
-929	1198	7536188055509739	HomeWork.exe	4d1ea14eb3df37e7
+788	1086	7536200967193377	HomeWork.exe	1a823d3f4027f89e
 44	769	7524074940006613	CMakeFiles/HomeWork.dir/HW_5/5.16ж.cpp.obj	d1a59331db801c0d
 12	789	7533715786046591	CMakeFiles/HomeWork.dir/HW_19/practica_19.cpp.obj	56ac2e1416fd847f
 63	815	7524074940199169	CMakeFiles/HomeWork.dir/HW_6/6.26.cpp.obj	adc1fd7cc775c4e2
@@ -19,7 +19,7 @@
 13	784	7536182198187704	CMakeFiles/HomeWork.dir/HW_20/practica_20.cpp.obj	1df505437aed3b6f
 79	830	7524074940370055	CMakeFiles/HomeWork.dir/HW_7/practica_7.cpp.obj	643fb9d6332af797
 808	1441	7524074947649274	CMakeFiles/HomeWork.dir/HW_10/practica_10.cpp.obj	b3292ed83238abe5
-2	362	7536188664783323	build.ninja	6133084c3a80aac5
+2	362	7536202473194871	build.ninja	6133084c3a80aac5
 87	795	7524074940440059	CMakeFiles/HomeWork.dir/HW_8/practica_8.cpp.obj	3c1ce464f0cd2cf2
 770	1427	7524074947269631	CMakeFiles/HomeWork.dir/HW_7/7.8б.cpp.obj	3a7526c54ac17a9e
 1434	2241	7524074953902140	CMakeFiles/HomeWork.dir/HW_11/11.12е.cpp.obj	5718e1c54f6dbd6d
@@ -45,8 +45,10 @@
 7	543	7527984857741258	CMakeFiles/HomeWork.dir/HW_16/16.06.cpp.obj	e26efed04c495ef9
 7	478	7533731367563164	CMakeFiles/HomeWork.dir/HW_19/19.2.cpp.obj	95eae31ddf10ece9
 8	370	7533731175690583	CMakeFiles/HomeWork.dir/HW_19/19.1.cpp.obj	3e195a7da53c9747
-11	928	7536188046329593	CMakeFiles/HomeWork.dir/HW_20/20.1.cpp.obj	cf474137fdbc873d
-12	964	7536200044297245	CMakeFiles/HomeWork.dir/HW_20/20.1.cpp.obj	cf474137fdbc873d
-19	1359	7536200044368101	CMakeFiles/HomeWork.dir/HW_20/20.3.cpp.obj	64c7718f4443231b
 11	787	7536200959433279	CMakeFiles/HomeWork.dir/HW_20/20.1.cpp.obj	cf474137fdbc873d
-788	1086	7536200967193377	HomeWork.exe	1a823d3f4027f89e
+19	1359	7536200044368101	CMakeFiles/HomeWork.dir/HW_20/20.3.cpp.obj	64c7718f4443231b
+13	973	7536204541030672	CMakeFiles/HomeWork.dir/HW_20/20.8.cpp.obj	bbd4dfa87c9d341e
+15	1425	7536204658345758	CMakeFiles/HomeWork.dir/HW_20/20.3.cpp.obj	64c7718f4443231b
+1426	1715	7536204672447357	HomeWork.exe	21b9d91105986fee
+12	1017	7536204971785632	CMakeFiles/HomeWork.dir/HW_20/20.8.cpp.obj	bbd4dfa87c9d341e
+1018	1335	7536204981842609	HomeWork.exe	21b9d91105986fee

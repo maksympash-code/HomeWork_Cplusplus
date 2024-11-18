@@ -76,4 +76,5 @@ add_executable(HomeWork main.cpp
         HW_20/practica_20.cpp
         HW_20/20.1.cpp
         HW_20/20.3.cpp
+        HW_20/20.8.cpp
 )

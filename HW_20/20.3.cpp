@@ -49,19 +49,19 @@ void writeFile(const string& filename, const map<double, vector<pair<Point, Poin
 }
 
 
-int main() {
-    string inputFile = "B:/C++/HomeWork/HW_20/points.txt";
-    string outputFile = "B:/C++/HomeWork/HW_20/sorted_segments.txt";
-
-    // Читання точок з файлу
-    vector<Point> points = readPoints(inputFile);
-
-    // Створення відрізків і сортування за довжиною
-    auto segments = createSegments(points);
-
-    // Запис відсортованих відрізків у файл
-    writeFile(outputFile, segments);
-
-    cout << "Segments sorted by length and written to file." << endl;
-    return 0;
-}
+// int main() {
+//     string inputFile = "B:/C++/HomeWork/HW_20/points.txt";
+//     string outputFile = "B:/C++/HomeWork/HW_20/sorted_segments.txt";
+//
+//     // Читання точок з файлу
+//     vector<Point> points = readPoints(inputFile);
+//
+//     // Створення відрізків і сортування за довжиною
+//     auto segments = createSegments(points);
+//
+//     // Запис відсортованих відрізків у файл
+//     writeFile(outputFile, segments);
+//
+//     cout << "Segments sorted by length and written to file." << endl;
+//     return 0;
+// }
