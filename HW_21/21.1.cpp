@@ -55,33 +55,33 @@ public:
     }
 };
 
-int main() {
-    BoolVector vec1(5, true);
-    BoolVector vec2(5, false);
-
-    vec2.push_back(true);
-
-    std::cout << "Vector 1: ";
-    vec1.print();
-
-    std::cout << "Vector 2: ";
-    vec2.print();
-
-    BoolVector and_result = vec1.conjunction(vec2);
-    BoolVector or_result = vec1.disjunction(vec2);
-    BoolVector not_result = vec1.negation();
-
-    std::cout << "\nAND (Conjunction): ";
-    and_result.print();
-
-    std::cout << "OR (Disjunction): ";
-    or_result.print();
-
-    std::cout << "NOT (Negation): ";
-    not_result.print();
-
-    std::cout << "\nVector 1: " << vec1.count_ones() << " ones, " << vec1.count_zeros() << " zeros\n";
-    std::cout << "Vector 2: " << vec2.count_ones() << " ones, " << vec2.count_zeros() << " zeros\n";
-
-    return 0;
-}
+// int main() {
+//     BoolVector vec1(5, true);
+//     BoolVector vec2(5, false);
+//
+//     vec2.push_back(true);
+//
+//     std::cout << "Vector 1: ";
+//     vec1.print();
+//
+//     std::cout << "Vector 2: ";
+//     vec2.print();
+//
+//     BoolVector and_result = vec1.conjunction(vec2);
+//     BoolVector or_result = vec1.disjunction(vec2);
+//     BoolVector not_result = vec1.negation();
+//
+//     std::cout << "\nAND (Conjunction): ";
+//     and_result.print();
+//
+//     std::cout << "OR (Disjunction): ";
+//     or_result.print();
+//
+//     std::cout << "NOT (Negation): ";
+//     not_result.print();
+//
+//     std::cout << "\nVector 1: " << vec1.count_ones() << " ones, " << vec1.count_zeros() << " zeros\n";
+//     std::cout << "Vector 2: " << vec2.count_ones() << " ones, " << vec2.count_zeros() << " zeros\n";
+//
+//     return 0;
+// }
