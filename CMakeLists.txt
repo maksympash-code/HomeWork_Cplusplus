@@ -85,4 +85,6 @@ add_executable(HomeWork main.cpp
         HW_19/19.12.cpp
         HW_20/20.12.cpp
         HW_20/20.18.cpp
+        HW_21/21.14.cpp
+        HW_21/21.16.cpp
 )
