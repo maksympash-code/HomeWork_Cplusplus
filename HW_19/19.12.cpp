@@ -70,32 +70,32 @@ public:
     }
 };
 
-int main() {
-    Matrix<int> mat1(2, 3, 1);
-    Matrix<int> mat2(2, 3, 2);
-
-    cout << "Matrix 1:\n" << mat1;
-    cout << "Matrix 2:\n" << mat2;
-
-    Matrix<int> sum = mat1 + mat2;
-    cout << "Sum of matrices:\n" << sum;
-
-    vector<int> vec = {1, 2, 3};
-    vector<int> vec_result = mat1 * vec;
-    cout << "Matrix 1 multiplied by vector:\n";
-    for (int val : vec_result) {
-        cout << val << " ";
-    }
-    cout << endl;
-
-    Matrix<int> mat3(3, 2, 1);
-    Matrix<int> product = mat1 * mat3;
-    cout << "Product of matrices:\n" << product;
-
-    Matrix<float> mat4(2, 2, 1.5f);
-    Matrix<float> mat5(2, 2, 2.5f);
-    Matrix<float> float_sum = mat4 + mat5;
-    cout << "Sum of float matrices:\n" << float_sum;
-
-    return 0;
-}
+// int main() {
+//     Matrix<int> mat1(2, 3, 1);
+//     Matrix<int> mat2(2, 3, 2);
+//
+//     cout << "Matrix 1:\n" << mat1;
+//     cout << "Matrix 2:\n" << mat2;
+//
+//     Matrix<int> sum = mat1 + mat2;
+//     cout << "Sum of matrices:\n" << sum;
+//
+//     vector<int> vec = {1, 2, 3};
+//     vector<int> vec_result = mat1 * vec;
+//     cout << "Matrix 1 multiplied by vector:\n";
+//     for (int val : vec_result) {
+//         cout << val << " ";
+//     }
+//     cout << endl;
+//
+//     Matrix<int> mat3(3, 2, 1);
+//     Matrix<int> product = mat1 * mat3;
+//     cout << "Product of matrices:\n" << product;
+//
+//     Matrix<float> mat4(2, 2, 1.5f);
+//     Matrix<float> mat5(2, 2, 2.5f);
+//     Matrix<float> float_sum = mat4 + mat5;
+//     cout << "Sum of float matrices:\n" << float_sum;
+//
+//     return 0;
+// }
